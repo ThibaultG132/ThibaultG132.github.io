@@ -24,36 +24,34 @@
       line-height: 1.05;
     }
 
-    h2 { margin-top: 3rem; }
-    h3 { margin: 0; }
-    article { border-top: 1px solid #b8c5bd; padding: 1rem 0; }
-    article p { margin-bottom: 0; }
+    .linkedin {
+      display: inline-block;
+      padding: 0.65rem 1rem;
+      border-radius: 0.4rem;
+      background: #172a25;
+      color: #fff;
+      font-weight: 600;
+      text-decoration: none;
+    }
+
+    .linkedin:hover {
+      text-decoration: underline;
+    }
+
+    .linkedin:focus-visible {
+      outline: 2px solid #172a25;
+      outline-offset: 4px;
+    }
   </style>
 </head>
 <body>
   <main>
-    <header>
-      <h1>Thibault Ghekiere</h1>
-      <p><strong>Data, AI &amp; Technology Consulting</strong></p>
-      <p>I’m interested in how data and technology can help people make
-        better decisions, from integrating an electric grid digital twin
-        to predicting EV charger availability.</p>
-    </header>
-
-    <section aria-labelledby="work">
-      <h2 id="work">Selected work</h2>
-      <article>
-        <h3>Electric grid digital twin integration</h3>
-        <p>I researched and presented an approach for integrating
-          a digital twin of an electric grid.</p>
-      </article>
-      <article>
-        <h3>EV charger availability prediction</h3>
-        <p><strong>In progress.</strong> I’m exploring how historical
-          charging data can help drivers estimate whether a charger
-          will be free when they arrive.</p>
-      </article>
-    </section>
+    <h1>Thibault Ghekiere</h1>
+    <p><strong>Data, AI &amp; Technology Consulting</strong></p>
+    <p>My portfolio is a work in progress. In the meantime, feel free to connect with me on LinkedIn.</p>
+    <a class="linkedin" href="https://be.linkedin.com/in/thibault-ghekiere">
+      Connect on LinkedIn
+    </a>
   </main>
 </body>
 </html>
